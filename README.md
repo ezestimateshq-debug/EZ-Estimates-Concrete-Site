@@ -20,7 +20,7 @@ Public website: <https://ezestimateshq-debug.github.io/EZ-Estimates-Concrete-Sit
 - No checkout.
 - No payment processor integration.
 - No public installer download link.
-- No private customer data, license keys, internal pricing notes, or source-code details.
+- No customer records, activation credentials, pricing notes, or source-code details.
 
 The intended flow is:
 
