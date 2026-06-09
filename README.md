@@ -1,16 +1,29 @@
-# Public Launch Site Assets
+# EZ Estimates Concrete Public Launch Site
 
-This folder is for public website assets only.
+This folder contains the static GitHub Pages website for EZ Estimates Concrete.
 
-Expected public files:
+## Demo Form URL
 
-- `sample-proposal.pdf`
-- `sales-one-pager.pdf`
+All demo and Founder Plan request CTAs are controlled by:
 
-`sales-one-pager.pdf` is a public copy of the generated sales sheet from `docs/launch-assets/pdf/sales-one-pager.pdf`.
+`site-config.js`
 
-`sample-proposal.pdf` should be added only after a public-safe sample proposal is generated and approved.
+The live Google Form responder URL is already set in `site-config.js`.
 
-Do not place app downloads, local databases, internal docs, source workbooks, private pricing notes, customer records, or support-only files in this public assets folder.
+Owner/contact: Gavin Whitaker  
+Public email: <ez.estimateshq@gmail.com>  
+Public website: <https://ezestimateshq-debug.github.io/EZ-Estimates-Concrete-Site/>
 
-The current HTML uses a placeholder link for `sample-proposal.pdf` until a final public sample proposal is approved.
+## Static Site Rules
+
+- No backend code.
+- No checkout.
+- No payment processor integration.
+- No public installer download link.
+- No private customer data, license keys, internal pricing notes, or source-code details.
+
+The intended flow is:
+
+```text
+GitHub Pages -> Google Form -> Google Sheet -> manual follow-up
+```
